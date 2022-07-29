@@ -19,7 +19,7 @@ public class swingGUI {
         JFrame frame = new JFrame("Electronics Inventory");
         frame.setContentPane(new swingGUI().Main);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setResizable(false);
+//        frame.setResizable(false);
         frame.setLocation(650,250);
         frame.pack();
         frame.setVisible(true);
@@ -124,8 +124,6 @@ public class swingGUI {
             }
         });
     }
-
-
 
     public void connect(){
         try {
